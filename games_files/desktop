@@ -1,0 +1,45 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+'use strict';
+CONFIG.url.site = "http://web.archive.org/web/20190529232925/https://mixer.com";
+CONFIG.url.thumbs = "http://web.archive.org/web/20190529232925/https://thumbs.mixer.com";
+CONFIG.url.oauthCheckBase = "http://web.archive.org/web/20190529232925/https://mixer.com/api";
+CONFIG.constellation.url = "wss://constellation.mixer.com";
+CONFIG.log.dsn = "http://web.archive.org/web/20190529232925/https://88ae600ca01741f396e0078edcbea562@app.getsentry.com/33033";
+CONFIG.stripe.clientKey = "pk_live_E6NyyoK7aaciWrEy4oWwRNJe";
+CONFIG.msa.clientId = "00000000401B4D20";
+
+}
+/*
+     FILE ARCHIVED ON 23:29:25 May 29, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 06:51:12 Dec 05, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 484.361
+  exclusion.robots: 141.815
+  exclusion.robots.policy: 141.809
+  xauthn.identify: 99.744
+  xauthn.chkprivs: 41.901
+  RedisCDXSource: 1.187
+  esindex: 0.005
+  LoadShardBlock: 306.862 (3)
+  PetaboxLoader3.datanode: 253.317 (4)
+  CDXLines.iter: 14.143 (3)
+  PetaboxLoader3.resolve: 138.227 (3)
+  load_resource: 103.701
+*/

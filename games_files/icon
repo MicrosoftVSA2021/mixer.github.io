@@ -1,0 +1,46 @@
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://web.archive.org/web/20190531002608im_/https://fonts.gstatic.com/s/materialicons/v47/flUhRq6tzZclQEJ-Vdg-IuiaDsNa.woff) format('woff');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+     FILE ARCHIVED ON 00:26:08 May 31, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 06:51:14 Dec 05, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 1833.768
+  exclusion.robots.policy: 1833.758
+  xauthn.identify: 1768.052
+  xauthn.chkprivs: 65.528
+  cdx.remote: 0.11
+  esindex: 0.011
+  LoadShardBlock: 334.048 (6)
+  PetaboxLoader3.datanode: 210.524 (7)
+  CDXLines.iter: 139.396 (3)
+  load_resource: 83.565
+  PetaboxLoader3.resolve: 40.894
+*/

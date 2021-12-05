@@ -1,0 +1,39 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+!function(e){var n={};function t(r){if(n[r])return n[r].exports;var o=n[r]={i:r,l:!1,exports:{}};return e[r].call(o.exports,o,o.exports,t),o.l=!0,o.exports}t.m=e,t.c=n,t.d=function(e,n,r){t.o(e,n)||Object.defineProperty(e,n,{enumerable:!0,get:r})},t.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},t.t=function(e,n){if(1&n&&(e=t(e)),8&n)return e;if(4&n&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(t.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&n&&"string"!=typeof e)for(var o in e)t.d(r,o,function(n){return e[n]}.bind(null,o));return r},t.n=function(e){var n=e&&e.__esModule?function(){return e.default}:function(){return e};return t.d(n,"a",n),n},t.o=function(e,n){return Object.prototype.hasOwnProperty.call(e,n)},t.p="_latest/",t(t.s=1229)}({1229:function(e,n){window._spectreReady=new Promise(function(e,n){function t(n,t){var r=document.createElement("script");r.src=n,r.type="text/javascript",r.async=!1,r.onerror=t,r.onload=function(){e()},document.head.appendChild(r)}var r,o,a=(r="ningParams".replace(/[\[]/,"\\[").replace(/[\]]/,"\\]"),(o=new RegExp("[\\?&]"+r+"=([^&#]*)").exec(window.location.search))?decodeURIComponent(o[1].replace(/\+/g," ")):"");t("http://web.archive.org/web/20190530004000/https://ning.videosvc.mixer.com/api/video/v2/player"+(a?function(e){const n=JSON.parse(e);return"?"+Object.keys(n).map(function(e){return encodeURIComponent(e)+"="+encodeURIComponent(n[e])}).join("&")}(a):""),function(){window._playerFallbackLevel="ning",t("http://web.archive.org/web/20190530004000/https://ning.azureedge.net/players/releases/production/main.js?a=1",function(){window._playerFallbackLevel="cdn",t("http://web.archive.org/web/20190530004000/https://mixer.com/_latest/assets/js/mixer-player.js?a=1",function(){window._playerFallbackLevel="mixerAssets",n()})})})})}});
+//# sourceMappingURL=video.en-US-b1b5df2c60cbe49af033.bundle.js.map
+
+}
+/*
+     FILE ARCHIVED ON 00:40:00 May 30, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 06:51:15 Dec 05, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 263.0
+  exclusion.robots: 118.897
+  exclusion.robots.policy: 118.882
+  xauthn.identify: 88.814
+  xauthn.chkprivs: 29.693
+  RedisCDXSource: 1.389
+  esindex: 0.012
+  LoadShardBlock: 118.29 (3)
+  PetaboxLoader3.datanode: 106.085 (4)
+  CDXLines.iter: 21.536 (3)
+  PetaboxLoader3.resolve: 68.28 (2)
+  load_resource: 96.475
+*/

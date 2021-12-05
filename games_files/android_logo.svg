@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="20px" viewBox="0 0 18 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="button_googleplay" transform="translate(-8.000000, -3.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Google-Play">
+                <path d="M8,24.6318576 L8,7.37015289 C8,6.76779047 8.34922028,6.24710638 8.85599887,6 L18.8410704,15.9980606 L8.8519831,26 C8.34737465,25.7521422 8,25.2326665 8,24.6318576 Z M22.0088676,19.1698481 L11.0908282,25.4815396 L19.7016225,16.8596227 L22.0088676,19.1698481 Z M25.4026028,14.7908582 C25.7657465,15.0691778 26,15.5077266 26,16.0010052 C26,16.4868715 25.7728451,16.919531 25.419031,17.1983583 L23.0999211,18.5390851 L20.5620732,15.9980606 L23.0981972,13.4586404 L25.4026028,14.7908582 Z M11.097227,6.52094809 L22.0071437,12.8279181 L19.7016225,15.1363969 L11.097227,6.52094809 Z" id="logo"></path>
+            </g>
+        </g>
+    </g>
+</svg>
