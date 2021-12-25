@@ -1,0 +1,37 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+(window.webpackJsonp=window.webpackJsonp||[]).push([[46],{2379:function(e,n,t){e.exports={promoWrapper:"promoWrapper_2l7DY",promoInfoBanner:"promoInfoBanner_2sfNf",emberButton:"emberButton_1eGRl",dismissButton:"dismissButton_1DAlS"}},2396:function(e,n,t){"use strict";t.r(n);var r=t(1),o=t(76),s=t(230),i=t(637),m=t(3),a=t(51),c=t(1965),l=t(2379),u="New Ember Prices! Now get even more Embers for your money!",p="Get Embers",b=function(e){function n(n){var t=e.call(this,n)||this;return t.onEmberClick=function(){t.props.openEmbersStore()},t.onDismissClick=function(){t.setState({isDismissed:!0}),localStorage.setItem(c.a,"true")},t.state={isDismissed:!1},t}return r.__extends(n,e),n.prototype.render=function(){return this.props.showNewBanner&&!this.state.isDismissed&&m.createElement(m.Fragment,null,m.createElement("div",{className:l.promoInfoBanner},u,m.createElement(s.c,{className:l.emberButton,onClick:this.onEmberClick},p),m.createElement(s.d,{className:l.dismissButton,onClick:this.onDismissClick},m.createElement(i.a,null))),m.createElement("div",{className:l.promoWrapper}))},n}(m.PureComponent),E=Object(a.connect)(function(e){return{showNewBanner:Object(c.b)(e)&&!localStorage.getItem(c.a)}},function(e){return{openEmbersStore:function(){return e(Object(o.c)(o.a.EMBERS_HEADER_BUTTON))}}})(b);t.d(n,"default",function(){return E})}}]);
+//# sourceMappingURL=46.en-US-967b2a696689f431b248.bundle.js.map
+
+}
+/*
+     FILE ARCHIVED ON 19:23:58 Apr 03, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:39:50 Nov 27, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 191.884
+  exclusion.robots: 0.069
+  exclusion.robots.policy: 0.063
+  RedisCDXSource: 93.75
+  esindex: 0.008
+  LoadShardBlock: 81.413 (3)
+  PetaboxLoader3.datanode: 89.812 (4)
+  CDXLines.iter: 14.745 (3)
+  load_resource: 106.089
+  PetaboxLoader3.resolve: 25.616
+*/

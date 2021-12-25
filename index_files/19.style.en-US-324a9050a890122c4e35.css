@@ -1,0 +1,1212 @@
+.background_1txZq {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-size: 100% auto;
+  background-position: top center;
+  background-repeat: no-repeat; }
+  @media (max-width: 960px) {
+    .background_1txZq {
+      display: none; } }
+
+.listRowStyle_1a7a3 {
+  display: flex;
+  flex-direction: row; }
+  @media (max-width: 1280px) {
+    .listRowStyle_1a7a3 {
+      overflow-x: scroll;
+      overflow-y: hidden; } }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+@media (max-width: 1280px) {
+  .listRowStyle_1a7a3::-webkit-scrollbar {
+    height: 5px; } }
+
+.container_ixUgG {
+  position: relative;
+  border-radius: 4px;
+  box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.32);
+  overflow: hidden;
+  background: #29374a; }
+  .container_ixUgG:active .overlay_3PpFh, .container_ixUgG.active_200vZ .overlay_3PpFh {
+    background: rgba(255, 255, 255, 0.16); }
+
+.containerWithFocusStyle_XnF5d:hover .overlay_3PpFh, .containerWithFocusStyle_XnF5d.hover_2pP3n .overlay_3PpFh {
+  background: rgba(255, 255, 255, 0.08); }
+
+.containerWithFocusStyle_XnF5d:focus, .containerWithFocusStyle_XnF5d.focus_1vHdD {
+  outline: none; }
+  .containerWithFocusStyle_XnF5d:focus .overlay_3PpFh, .containerWithFocusStyle_XnF5d.focus_1vHdD .overlay_3PpFh {
+    background: rgba(255, 255, 255, 0.12); }
+    .containerWithFocusStyle_XnF5d:focus .overlay_3PpFh:before, .containerWithFocusStyle_XnF5d.focus_1vHdD .overlay_3PpFh:before {
+      position: absolute;
+      content: '';
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      border: 1px solid white;
+      border-radius: 4px; }
+
+.containerWithFocusStyle_XnF5d:active .overlay_3PpFh, .containerWithFocusStyle_XnF5d.active_200vZ .overlay_3PpFh {
+  background: rgba(255, 255, 255, 0.16); }
+
+.srOnly_OqiSN {
+  position: absolute;
+  opacity: 0.0001; }
+
+.offlineImage_QQkyo,
+.videoContainer_-ccmf {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%; }
+
+.overlay_3PpFh {
+  position: absolute;
+  padding-top: 56.25%;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 0px;
+  cursor: pointer; }
+
+.scrim_jskEc {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(47, 61, 83, 0) 0%, rgba(38, 50, 70, 0.38) 54%, rgba(33, 44, 62, 0.6) 100%);
+  visibility: hidden; }
+  @media (max-width: 960px) {
+    .scrim_jskEc {
+      visibility: visible; } }
+
+.header_3Dxmv {
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  padding: 24px;
+  color: #fff; }
+  @media (max-width: 600px) {
+    .header_3Dxmv {
+      padding: 8px; } }
+  .header_3Dxmv .avatar_1iKoL {
+    flex: 0;
+    min-width: 48px;
+    visibility: hidden; }
+  .header_3Dxmv .liveIndicator_1j1mX {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 4px 8px;
+    margin-right: 8px; }
+  .header_3Dxmv .viewerNumber_3UK2g {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 4px 8px; }
+  .header_3Dxmv .content_3MA64 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 8px;
+    overflow: hidden;
+    visibility: hidden; }
+    .header_3Dxmv .content_3MA64 .channelNameWithBadge_3fNHd {
+      display: flex;
+      align-items: flex-end; }
+      .header_3Dxmv .content_3MA64 .channelNameWithBadge_3fNHd .title_1Qzgi {
+        font-family: "Segoe UI", sans-serif;
+        font-size: 16px;
+        line-height: 21px;
+        font-weight: 600;
+        letter-spacing: 0px;
+        color: #fff;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis; }
+      .header_3Dxmv .content_3MA64 .channelNameWithBadge_3fNHd .badge_2ablJ {
+        color: #00bcf2;
+        margin-left: 4px; }
+    .header_3Dxmv .content_3MA64 .description_6QNFy {
+      font-family: "Segoe UI", sans-serif;
+      font-size: 16px;
+      line-height: 21px;
+      font-weight: 400;
+      letter-spacing: 0.25px;
+      color: rgba(255, 255, 255, 0.72);
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis; }
+  @media (max-width: 960px) {
+    .header_3Dxmv .content_3MA64 {
+      visibility: visible; } }
+
+.heroContainer_3o7fQ {
+  display: flex;
+  margin: 16px 4px;
+  align-items: center; }
+  .heroContainer_3o7fQ .heroInfo_NztdO {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+    margin-left: 32px; }
+    .heroContainer_3o7fQ .heroInfo_NztdO .title_1CyQ9 {
+      font-family: "Segoe UI", sans-serif;
+      font-size: 16px;
+      line-height: 21px;
+      font-weight: 600;
+      letter-spacing: 0px;
+      color: #78d3ff;
+      margin-bottom: 8px; }
+    .heroContainer_3o7fQ .heroInfo_NztdO .channelNameWithBadge_2yhQg {
+      display: flex;
+      align-items: center; }
+      .heroContainer_3o7fQ .heroInfo_NztdO .channelNameWithBadge_2yhQg .channelName_1hA52 {
+        font-family: "Segoe UI", sans-serif;
+        color: #fff;
+        font-size: 34px;
+        font-weight: 600;
+        letter-spacing: 0.2px;
+        line-height: 29px;
+        margin-bottom: 8px; }
+      .heroContainer_3o7fQ .heroInfo_NztdO .channelNameWithBadge_2yhQg .badge_TbOb- {
+        color: #00bcf2;
+        margin-left: 4px; }
+    .heroContainer_3o7fQ .heroInfo_NztdO .gameName_1ehZt {
+      font-family: "Segoe UI", sans-serif;
+      color: #fff;
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: 0px;
+      line-height: 29px;
+      margin-bottom: 8px; }
+    .heroContainer_3o7fQ .heroInfo_NztdO .description_1Iz6H {
+      font-family: "Segoe UI", sans-serif;
+      color: rgba(255, 255, 255, 0.72);
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: 0px;
+      line-height: 29px;
+      margin-bottom: 40px; }
+    .heroContainer_3o7fQ .heroInfo_NztdO .iconSpacing_3H2WY {
+      margin-right: 4px; }
+  .heroContainer_3o7fQ .player_35StZ {
+    width: 800px;
+    height: calc(800px * 9 / 16);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.32);
+    border-radius: 4px; }
+  @media (max-width: 1280px) {
+    .heroContainer_3o7fQ {
+      margin: 16px 32px; }
+      .heroContainer_3o7fQ .player_35StZ {
+        width: 600px;
+        height: calc(600px * 9 / 16); } }
+  @media (max-width: 960px) {
+    .heroContainer_3o7fQ {
+      margin: 16px 32px;
+      align-items: center; }
+      .heroContainer_3o7fQ .heroInfo_NztdO {
+        display: none; }
+      .heroContainer_3o7fQ .player_35StZ {
+        width: 100%;
+        height: 0px;
+        padding-top: 56.25%; } }
+  @media (max-width: 600px) {
+    .heroContainer_3o7fQ {
+      margin: 16px 16px; }
+      .heroContainer_3o7fQ .heroInfo_NztdO {
+        display: none; }
+      .heroContainer_3o7fQ .player_35StZ {
+        width: 100%;
+        height: 0px;
+        padding-top: 56.25%; } }
+
+.featureRowContainer_30knj {
+  margin-top: 16px;
+  margin-bottom: 48px;
+  margin-left: 0px;
+  margin-right: 0px; }
+  @media (max-width: 1280px) {
+    .featureRowContainer_30knj {
+      margin-top: 16px;
+      margin-bottom: 16px;
+      margin-left: 28px;
+      margin-right: 0px; } }
+  @media (max-width: 960px) {
+    .featureRowContainer_30knj {
+      margin-top: 16px;
+      margin-bottom: 16px;
+      margin-left: 28px;
+      margin-right: 0px; } }
+  @media (max-width: 600px) {
+    .featureRowContainer_30knj {
+      margin-top: 16px;
+      margin-bottom: 8px;
+      margin-left: 12px;
+      margin-right: 0px; } }
+
+.featureRow_nn6pt {
+  display: flex;
+  flex-direction: row; }
+  @media (max-width: 1280px) {
+    .featureRow_nn6pt {
+      overflow-x: scroll; } }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+@media (max-width: 1280px) {
+  .featureRow_nn6pt::-webkit-scrollbar {
+    height: 5px; } }
+
+.featureCard_3ZFn6 {
+  flex-basis: calc(100% / 4 - 4px * 2);
+  margin: 0px 4px; }
+  @media (max-width: 1280px) {
+    .featureCard_3ZFn6 {
+      flex-basis: 40%;
+      flex-shrink: 0; } }
+  @media (max-width: 600px) {
+    .featureCard_3ZFn6 {
+      flex-basis: 70%;
+      flex-shrink: 0; } }
+
+.chevron_okQQn {
+  margin-left: 7px; }
+
+.languageMenu_1Ifcq {
+  display: flex; }
+
+.locales_2Lg_D {
+  background: #212c3e;
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 360px;
+  justify-content: center;
+  white-space: nowrap; }
+
+.languageOption_2XDx5 {
+  display: inline-block;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.72);
+  padding: 8px;
+  cursor: pointer; }
+  .languageOption_2XDx5:hover {
+    color: #fff; }
+  .languageOption_2XDx5.selected_1spjZ {
+    color: #fff;
+    background: rgba(235, 235, 235, 0.2); }
+
+/*
+ The follow fils is from the angular/material2 project, and is made available
+ under the following license terms:
+
+The MIT License
+
+Copyright (c) 2016 Google, Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+ */
+/* stylelint-disable */
+/*
+Square root function based upon https://codepen.io/thebabydino/pen/jGuzH,
+which is provided under the MIT license.
+
+Copyright (c) 2018 by Ana Tudor (https://codepen.io/thebabydino/pen/jGuzH)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+/**
+ * The icon-base mixin adds properties to the included element which normalize
+ * fonts and rendering for best display of an icon font.
+ */
+/**
+ * Displays a material icon in this element.
+ */
+.moreMenuWrap_1_frU {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: rgba(19, 28, 44, 0.95);
+  max-height: calc(100vh - 100px);
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2); }
+  .moreMenuWrap_1_frU .container_6zcvw {
+    margin: 0 auto;
+    max-width: 1440px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: flex-end; }
+
+.moreMenu_3ddl3 {
+  font-family: "Segoe UI", sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 8px; }
+  .moreMenu_3ddl3 h4 {
+    font-family: "Segoe UI", sans-serif;
+    margin-left: 16px;
+    color: rgba(255, 255, 255, 0.72);
+    font-weight: 600;
+    font-size: 1em;
+    margin-bottom: 16px; }
+  .moreMenu_3ddl3 .column_3QHZB {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 32px 0 0;
+    flex-basis: 20%; }
+  .moreMenu_3ddl3 .menuLink_1--am {
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    overflow: hidden;
+    height: 36px;
+    min-width: 88px;
+    padding: 0 16px;
+    border-radius: 3px;
+    line-height: 14px;
+    font-size: 14px;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 600;
+    cursor: pointer; }
+    .moreMenu_3ddl3 .menuLink_1--am:hover, .moreMenu_3ddl3 .menuLink_1--am:focus {
+      outline: none;
+      background: rgba(255, 255, 255, 0.08); }
+    .moreMenu_3ddl3 .menuLink_1--am.goPro_2aGZf {
+      color: #e175ff; }
+  .moreMenu_3ddl3 .appSection_VpkB2 {
+    display: flex;
+    flex-direction: row;
+    padding: 0 16px;
+    margin-bottom: 4px;
+    width: 100%; }
+    .moreMenu_3ddl3 .appSection_VpkB2 .appIcon_Xq8DT {
+      margin-right: 8px;
+      height: 22px;
+      width: 22px; }
+  .moreMenu_3ddl3 .appContainer_3CyQJ {
+    font-size: 0.75em;
+    line-height: 1.25em;
+    color: rgba(255, 255, 255, 0.72);
+    font-weight: 400;
+    font-family: "Segoe UI", sans-serif; }
+    .moreMenu_3ddl3 .appContainer_3CyQJ .buttonRow_3a6Mf {
+      display: flex;
+      flex-direction: row;
+      margin-top: 8px; }
+      .moreMenu_3ddl3 .appContainer_3CyQJ .buttonRow_3a6Mf .appButton_2HlMB {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 8px 16px;
+        background: black;
+        border-radius: 6px;
+        color: rgba(235, 235, 235, 0.85);
+        font-family: "Segoe UI", sans-serif;
+        font-weight: 600; }
+        .moreMenu_3ddl3 .appContainer_3CyQJ .buttonRow_3a6Mf .appButton_2HlMB:hover, .moreMenu_3ddl3 .appContainer_3CyQJ .buttonRow_3a6Mf .appButton_2HlMB:focus {
+          outline: none;
+          background-color: #373c3c; }
+        .moreMenu_3ddl3 .appContainer_3CyQJ .buttonRow_3a6Mf .appButton_2HlMB:first-of-type {
+          margin-right: 8px; }
+      .moreMenu_3ddl3 .appContainer_3CyQJ .buttonRow_3a6Mf .platformIcon_24QZB {
+        margin: -3px 8px 0 0; }
+
+.moreMenuFooter_1f8N0 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 8px;
+  opacity: 0.55; }
+  .moreMenuFooter_1f8N0 .socialLeader_ttK6y {
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    margin-right: 8px; }
+  .moreMenuFooter_1f8N0 .socialIconLink_3ubnq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%; }
+    .moreMenuFooter_1f8N0 .socialIconLink_3ubnq:hover, .moreMenuFooter_1f8N0 .socialIconLink_3ubnq:focus {
+      outline: none;
+      background: rgba(255, 255, 255, 0.08); }
+
+/*
+ The follow fils is from the angular/material2 project, and is made available
+ under the following license terms:
+
+The MIT License
+
+Copyright (c) 2016 Google, Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+ */
+/* stylelint-disable */
+/*
+Square root function based upon https://codepen.io/thebabydino/pen/jGuzH,
+which is provided under the MIT license.
+
+Copyright (c) 2018 by Ana Tudor (https://codepen.io/thebabydino/pen/jGuzH)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+/**
+ * The icon-base mixin adds properties to the included element which normalize
+ * fonts and rendering for best display of an icon font.
+ */
+/**
+ * Displays a material icon in this element.
+ */
+.navContainer_284Se {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  align-items: center;
+  z-index: 49;
+  height: 100px;
+  pointer-events: none; }
+  .navContainer_284Se.collapsed_3VW-y .content_2EoYH {
+    transform: translateY(0px);
+    background: #29374a; }
+  .navContainer_284Se.stayCollapsed_2BvGT {
+    height: 60px; }
+  .navContainer_284Se.hidden_2tL02 {
+    display: none; }
+
+.content_2EoYH {
+  transition: transform 300ms cubic-bezier(0.25, 0.8, 0.25, 1) ,  background 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  transform: translateY(20px);
+  pointer-events: auto; }
+
+.nav_9Ns4c {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  margin: 0 16px;
+  width: calc(100% - (16px * 2)); }
+  .nav_9Ns4c .logo_2skfN {
+    height: 21px; }
+  .nav_9Ns4c .logoButton_NZF1s {
+    margin-top: -8px;
+    align-items: center; }
+  .nav_9Ns4c .rotateIcon_FmBHt {
+    transform: rotate(90deg); }
+  .nav_9Ns4c .textButton_3-Rui {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 0.72);
+    position: relative; }
+  .nav_9Ns4c .iconButton_3qQ1A {
+    color: rgba(255, 255, 255, 0.72); }
+  .nav_9Ns4c .largeIcon_3emwj {
+    font-size: 20px; }
+  .nav_9Ns4c .active_11r-P {
+    color: #fff; }
+  .nav_9Ns4c .activeUnderline_3ugNH {
+    position: absolute;
+    background: #1fbaed;
+    height: 2px;
+    width: calc(100% - 16px);
+    bottom: 0;
+    left: 8px; }
+  .nav_9Ns4c .notificationsButton_6Hlho {
+    position: relative;
+    margin: auto 0; }
+  .nav_9Ns4c .left_31xse,
+  .nav_9Ns4c .right_9UFx2 {
+    display: flex;
+    flex-direction: row; }
+  .nav_9Ns4c .languageSection_3UXu3 {
+    margin: auto 0; }
+    .nav_9Ns4c .languageSection_3UXu3 .languageOptions_9uZCy {
+      position: absolute;
+      top: 60px;
+      right: 16px; }
+  .nav_9Ns4c .moreSection_1Ifks {
+    display: flex;
+    flex-direction: row; }
+  .nav_9Ns4c .getEmbersButton_2Qg6P {
+    margin: auto 8px;
+    text-transform: capitalize;
+    position: relative; }
+    .nav_9Ns4c .getEmbersButton_2Qg6P .getEmbersIcon_3QCZA {
+      margin-right: 4px;
+      width: 19px;
+      height: 19px; }
+    .nav_9Ns4c .getEmbersButton_2Qg6P .getEmbersButtonBackground_24OHy {
+      background: #3c506b; }
+    .nav_9Ns4c .getEmbersButton_2Qg6P .badge_koP4F {
+      color: white;
+      padding: 2px 10px;
+      border-radius: 15px;
+      background: linear-gradient(135deg, #e30ad5 0%, #f62653 100%);
+      position: absolute;
+      top: -15px;
+      right: -12px; }
+  .nav_9Ns4c .signInButton_3fCKe {
+    margin-left: 8px; }
+
+.notificationsLabel_1oxjl {
+  transition: transform 300ms cubic-bezier(0.25, 0.8, 0.25, 1) ,  opacity 300ms cubic-bezier(0.25, 0.8, 0.25, 1);
+  min-width: 16px;
+  height: 16px;
+  line-height: 16px;
+  padding: 0 4px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #0270d9;
+  transform: scale(0);
+  opacity: 0;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px; }
+  .notificationsLabel_1oxjl.visible_3nqAk {
+    transform: scale(1);
+    opacity: 1; }
+
+.container_3Xf2x {
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ecbf37;
+  color: #0f141e;
+  border-radius: 4px;
+  padding: 10px 15px; }
+
+.closeBtn_lQthI {
+  margin-left: 8px; }
+
+.closeIcon_2-JGS {
+  color: #0f141e; }
+
+.filterContainer_zF2Jd {
+  margin-top: 24px;
+  align-items: center; }
+
+.filterName_287Ah {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 1em;
+  margin-bottom: 8px; }
+
+.filterContainer_2tAYY {
+  display: flex;
+  margin-top: 24px;
+  align-items: center; }
+
+.filterLabel_1wTk- {
+  flex-grow: 1;
+  margin-right: 16px; }
+
+.filterName_1RVab {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 1em; }
+
+.filterDescription_10zSX {
+  font-family: "Segoe UI", sans-serif;
+  margin-top: 8px;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.85em; }
+
+.filterMenuContainer_2dg7t {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 16px;
+  background: #29374a; }
+
+.filterColumn_1258O {
+  flex-basis: 33.33333%;
+  border-right: 1px solid #29374a;
+  padding: 16px; }
+  .filterColumn_1258O:last-child {
+    border-right: none; }
+
+.filterColumnHeader_2fibx {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 1.25em; }
+  .filterColumnHeader_2fibx.mixPlay_1NBCZ {
+    text-transform: uppercase; }
+
+.resetButton_3Owj_ {
+  position: absolute;
+  top: 8px;
+  right: 24px; }
+
+@media (max-width: 960px) {
+  .filterMenuContainer_2dg7t {
+    display: block;
+    padding: 0;
+    height: 70vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar; }
+  .resetButton_3Owj_ {
+    right: 8px; } }
+
+.filterIcon_LJv0d {
+  font-size: 20px;
+  margin-right: 8px; }
+
+.filtersCount_2H5TY {
+  margin-left: 8px;
+  border-radius: 50%;
+  background-color: #0270d9;
+  width: 1.3em;
+  height: 1.3em; }
+
+@media (max-width: 960px) {
+  .buttonString_31Awl {
+    display: none; }
+  .filterIcon_LJv0d {
+    margin-right: 0; } }
+
+.browseHeader_lSNpl {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 24px 8px 0 0; }
+  .browseHeader_lSNpl .heading_3E-7g {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #fff;
+    margin: 16px 4px; }
+
+.searchAndFilters_19HYV {
+  display: flex;
+  align-items: center; }
+
+.search_2cv-w {
+  width: 300px;
+  margin-right: 8px; }
+
+@media (max-width: 1280px) {
+  .search_2cv-w {
+    width: 250px; }
+  .browseHeader_lSNpl {
+    margin: 24px 8px 0 8px; }
+    .browseHeader_lSNpl .heading_3E-7g {
+      margin: 8px 8px 8px 4px;
+      font-family: "Segoe UI", sans-serif;
+      font-size: 16px;
+      line-height: 21px;
+      font-weight: 600;
+      letter-spacing: 0px; }
+  .searchAndFilters_19HYV {
+    margin: 0 8px 8px 0;
+    width: 100%;
+    justify-content: space-between; } }
+
+.browseChannelsContainer_3Wp70 {
+  min-height: 100vh;
+  position: relative;
+  margin: 0px 0px; }
+  @media (max-width: 1280px) {
+    .browseChannelsContainer_3Wp70 {
+      margin: 0px 24px; } }
+  @media (max-width: 960px) {
+    .browseChannelsContainer_3Wp70 {
+      margin: 0px 24px; } }
+  @media (max-width: 600px) {
+    .browseChannelsContainer_3Wp70 {
+      margin: 0px 16px; } }
+
+.cardStyle_3R0tX {
+  flex-basis: calc(100% / 4 - 4px * 2);
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 4px 4px;
+  cursor: pointer; }
+  .cardStyle_3R0tX:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1; }
+
+@media (max-width: 1280px) {
+  .cardStyle_3R0tX {
+    flex-basis: calc(100% / 3 - 8px * 2);
+    margin: 4px 8px; } }
+
+@media (max-width: 960px) {
+  .cardStyle_3R0tX {
+    flex-basis: calc(100% / 2 - 8px * 2);
+    margin: 4px 8px; } }
+
+@media (max-width: 600px) {
+  .cardStyle_3R0tX {
+    flex-basis: 100%;
+    margin: 8px 0px; } }
+
+.container_2CE-0 {
+  display: flex;
+  flex-direction: column;
+  padding: 0 120px; }
+  @media (max-width: 960px) {
+    .container_2CE-0 {
+      padding: 0 15px; } }
+  @media (max-width: 600px) {
+    .container_2CE-0 {
+      padding: 0 20px; } }
+
+.header_11G19 {
+  color: #f7f7f7;
+  font-family: "Industrywf", sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 42px; }
+
+.subHeader_1Axp_ {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Industrywf", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px; }
+
+.listContainer_3sJ_E {
+  display: flex;
+  flex-direction: column; }
+  .listContainer_3sJ_E .listName_3NKMc {
+    margin-top: 40px;
+    color: #ffffff;
+    font-family: "Industrywf", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px; }
+
+.emptyPageContainer_J_oGq {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px; }
+  @media (max-width: 600px) {
+    .emptyPageContainer_J_oGq {
+      flex-direction: column; } }
+
+.emptyPageImage_1VKuF {
+  height: 195px;
+  width: 300px; }
+
+.emptyPageContent_1arwW {
+  display: flex;
+  flex-direction: column; }
+  .emptyPageContent_1arwW .errorText_3ooy7 {
+    color: #f7f7f7;
+    font-family: "Industrywf", sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 42px; }
+  .emptyPageContent_1arwW .errorDetail_1LL-o {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Industrywf", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; }
+  .emptyPageContent_1arwW .button_2w2K- {
+    height: 40px;
+    width: 189px;
+    margin-top: 40px;
+    border-radius: 2px;
+    background-color: #0078d7;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Industrywf", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px; }
+  @media (max-width: 600px) {
+    .emptyPageContent_1arwW {
+      align-items: center; }
+      .emptyPageContent_1arwW .errorText_3ooy7 {
+        text-align: center; }
+      .emptyPageContent_1arwW .errorDetail_1LL-o {
+        text-align: center; } }
+
+.tokenContainer_RRT4p {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+  color: #ffffff;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 16px;
+  line-height: 21px; }
+  @media (max-width: 600px) {
+    .tokenContainer_RRT4p {
+      flex-direction: column; } }
+
+.underline_2qOhr {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1); }
+
+.productContainer_3MrEa {
+  flex-basis: 25%;
+  display: flex;
+  align-items: center; }
+  .productContainer_3MrEa img {
+    margin-left: 10px;
+    margin-right: 15px;
+    width: 70px;
+    height: 70px; }
+  .productContainer_3MrEa span {
+    padding-left: 5px; }
+  @media (max-width: 600px) {
+    .productContainer_3MrEa {
+      align-self: start; } }
+
+.platformContainer_2-zmW {
+  flex-basis: 25%;
+  padding-right: 30px; }
+  @media (max-width: 600px) {
+    .platformContainer_2-zmW {
+      display: flex;
+      align-self: start;
+      width: 100%;
+      margin-top: 10px;
+      padding-right: 0px; }
+      .platformContainer_2-zmW .selectList_2VC1W {
+        flex-basis: 100%; } }
+
+.dateContainer_1ffUZ {
+  flex-basis: 20%; }
+  @media (max-width: 600px) {
+    .dateContainer_1ffUZ {
+      display: flex;
+      align-self: start;
+      width: 100%;
+      margin-top: 10px; } }
+
+.codeContainer_WfDRX {
+  flex: 1;
+  display: flex;
+  align-items: center; }
+  .codeContainer_WfDRX .code_DcRGc {
+    flex-basis: 80%;
+    min-height: 38px;
+    margin-right: 5px;
+    padding-left: 10px;
+    line-height: 38px;
+    border: 1px solid rgba(255, 255, 255, 0.3); }
+  @media (max-width: 600px) {
+    .codeContainer_WfDRX {
+      align-self: start;
+      margin-top: 10px;
+      width: 100%; } }
+
+.copyButton_CUS1a {
+  height: 32px;
+  flex-basis: 20%;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-family: "Industrywf", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.44px;
+  line-height: 17px;
+  text-transform: uppercase; }
+  @media (max-width: 960px) {
+    .copyButton_CUS1a {
+      background: transparent; } }
+  @media (max-width: 600px) {
+    .copyButton_CUS1a {
+      background-color: rgba(255, 255, 255, 0.1); } }
+
+.viewCodeButton_1_k1o, .claimCodeButton_1Hd82 {
+  height: 38px;
+  flex-basis: 80%;
+  border-radius: 2px;
+  font-family: "Industrywf", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase; }
+  @media (max-width: 600px) {
+    .viewCodeButton_1_k1o, .claimCodeButton_1Hd82 {
+      flex-basis: 100%; } }
+
+.viewCodeButton_1_k1o {
+  background-color: #3c506b; }
+
+.claimCodeButton_1Hd82 {
+  background-color: #0078d7; }
+
+.labelContainer_33hnQ {
+  display: flex;
+  padding: 10px 10px;
+  color: #aaafb6;
+  font-family: "Industrywf", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.44px;
+  line-height: 17px;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1); }
+  .labelContainer_33hnQ .productLabel_3rFOb {
+    flex-basis: 25%; }
+  .labelContainer_33hnQ .platfromLabel_3JdVB {
+    flex-basis: 25%; }
+  .labelContainer_33hnQ .dateLabel_1tM0B {
+    flex-basis: 20%; }
+  .labelContainer_33hnQ .keyLabel_2x3kC {
+    flex: 1; }
+  @media (max-width: 600px) {
+    .labelContainer_33hnQ {
+      display: none; } }
+
+.label_2wr-4 {
+  display: none;
+  flex-basis: 50%;
+  text-align: left;
+  color: #aaafb6;
+  font-family: "Industrywf", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase; }
+  @media (max-width: 600px) {
+    .label_2wr-4 {
+      display: block; } }
+
+.content_1yA6x {
+  color: #ffffff;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 16px; }
+  @media (max-width: 600px) {
+    .content_1yA6x {
+      flex-basis: 50%;
+      text-align: right; } }
+
+.gameBackground_1z4AE {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50vh;
+  z-index: -1;
+  background-position: center top;
+  background-size: cover; }
+  .gameBackground_1z4AE::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(33, 44, 61, 0.4), #212c3d); }
+
+.gameInfoContainer_3RLld {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.heading_1gdG7 {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #fff;
+  margin: 0;
+  font-size: 1.7em; }
+
+.gameImg_1tS2U {
+  width: 60px;
+  height: 60px;
+  margin: 8px 16px 8px 4px; }
+
+.gameInfo_9mn1a {
+  display: flex;
+  align-items: center;
+  font-size: 0.5em;
+  color: #9fa4ae; }
+
+.gameViewCount_3e5sV {
+  color: #9fa4ae;
+  margin-left: 4px; }
+
+.pageContainer_2CT2C {
+  min-height: 100vh;
+  position: relative;
+  margin: 0px 0px; }
+  @media (max-width: 1280px) {
+    .pageContainer_2CT2C {
+      margin: 0px 24px; } }
+  @media (max-width: 960px) {
+    .pageContainer_2CT2C {
+      margin: 0px 24px; } }
+  @media (max-width: 600px) {
+    .pageContainer_2CT2C {
+      margin: 0px 16px; } }
+
+.cardStyle_8PoHy {
+  flex-basis: calc(100% / 4 - 4px * 2);
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 4px 4px;
+  cursor: pointer; }
+  .cardStyle_8PoHy:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1; }
+
+@media (max-width: 1280px) {
+  .cardStyle_8PoHy {
+    flex-basis: calc(100% / 3 - 8px * 2);
+    margin: 4px 8px; } }
+
+@media (max-width: 960px) {
+  .cardStyle_8PoHy {
+    flex-basis: calc(100% / 2 - 8px * 2);
+    margin: 4px 8px; } }
+
+@media (max-width: 600px) {
+  .cardStyle_8PoHy {
+    flex-basis: 100%;
+    margin: 8px 0px; } }
+
+.search_NTmZO {
+  margin: 40px 0;
+  font-size: 1.4em;
+  width: 900px;
+  max-width: 80%; }
+  .search_NTmZO input {
+    background: #131d2c;
+    border-radius: 2px;
+    padding: 0.7em;
+    font-size: 0.9em;
+    color: #fff;
+    border: 2px solid transparent;
+    width: 100%; }
+
+.container_3giXA {
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
+.pageContainer_bRRjn {
+  min-height: 100vh;
+  position: relative; }
+
+.cardStyle_1Vi6o {
+  flex: calc(100% / 6 - 8px);
+  flex-grow: 0;
+  margin: 4px;
+  cursor: pointer; }
+  .cardStyle_1Vi6o:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1; }
+  @media (max-width: 1280px) {
+    .cardStyle_1Vi6o {
+      flex: calc(100% / 5 - 8px); } }
+  @media (max-width: 960px) {
+    .cardStyle_1Vi6o {
+      flex: calc(100% / 4 - 8px); } }
+  @media (max-width: 600px) {
+    .cardStyle_1Vi6o {
+      flex: calc(100% / 2 - 8px); } }
+
+
+/*# sourceMappingURL=19.style.en-US-324a9050a890122c4e35.css.map*/
+/*
+     FILE ARCHIVED ON 10:52:48 Apr 02, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:39:33 Nov 27, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 102.115
+  exclusion.robots: 0.175
+  exclusion.robots.policy: 0.154
+  cdx.remote: 0.087
+  esindex: 0.01
+  LoadShardBlock: 60.755 (3)
+  PetaboxLoader3.datanode: 65.709 (4)
+  CDXLines.iter: 17.369 (3)
+  load_resource: 58.559
+  PetaboxLoader3.resolve: 39.094
+*/
